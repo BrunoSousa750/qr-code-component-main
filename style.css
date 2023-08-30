@@ -57,6 +57,13 @@ body{
     width: 100%;
 }
 
+@media (max-width: 750px){
+    .main{
+        width: 50vw !important;
+        height: 60vh;
+    }
+}
+
 .main p{
     color: var(--grayish-blue);
     font-size: 1.6rem;
